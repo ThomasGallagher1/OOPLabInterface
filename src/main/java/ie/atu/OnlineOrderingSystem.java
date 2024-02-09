@@ -7,6 +7,7 @@ public class OnlineOrderingSystem {
                         new Burger("Classic Burger",7.99,"Beef patty, lettuce, tomato, cheese"),
                         new Pizza("Margherita Pizza", 10.99, "Tomato Sauce, mozzarella"),
                         new Salad("Caesar Salad", 5.99, "Romaine lettuce, croutons, Caesar dressing"),
+                        new Dessert("Brownie", 3.99, "Chocolate Brownie, Vanilla Ice Cream, Chocolate Sauce"),
                 };
         for (MenuItem menuItem : menuItems){
             System.out.println("Name: " + menuItem.getName());
